@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>index</title>
+
+</head>
+<body>
+
+    <div class="d1"> 
+        <h1 class="titulo">Cadastro de DEVs</h1>
+        <p class="subtitulo">Complete suas informações</p>   
+        <br> 
+    </div>
+
+    <form action="">
+        <fieldset>
+            <div>
+                <label><b>Nome</b></label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+        </fieldset>
+            <div>
+                <label>Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label>De qual lado da aplicação você desenvolve?</label>
+                <label>
+                    <input type="radio" name="devweb" value="frontend"> Front-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="backend"> Back-end
+                </label>
+                <label>
+                    <input type="radio" name="devweb" value="fullstack"> Fullstack
+                </label>
+            </div>
+            <div>
+                <label>Senioridade</label>
+                <select id="senioridade">
+                    <option selected disabled value="">Selecione</option>
+                    <option value="">Junior</option>
+                    <option value="">Pleno</option>
+                    <option value="">Senior</option>
+                </select>
+            </div>
+            <fieldset>
+                <div>
+                    <label> Selecione as tecnologias que utiliza:</label><br><br>
+                    <input type="checkbox" id="tecnologia1" name="HTML">
+                    <label for="tecnologia1">HTML</label>
+                    <input type="checkbox" id="tecnologia1" name="CSS">
+                    <label for="tecnologia1">CSS</label>
+                    <input type="checkbox" id="tecnologia1" name="JavaScript">
+                    <label for="tecnologia1">JavaScript</label>
+                    <input type="checkbox" id="tecnologia1" name="PHP">
+                    <label for="tecnologia1">PHP</label>
+                    <input type="checkbox" id="tecnologia1" name="C#">
+                    <label for="tecnologia1">C#</label>
+                    <input type="checkbox" id="tecnologia1" name="Python">
+                    <label for="tecnologia1">Python</label>
+                    <input type="checkbox" id="tecnologia1" name="Java">
+                    <label for="tecnologia1">Java</label>
+                </div>
+                <div>
+                    <label><b>Conte um pouco da sua experiência:</b></label>
+                    <input type="text" name="experiencia" id="experiencia">
+                </div>
+            </fieldset>
+            <button>Concluido</button>
+    </form>
+</body>
+</html>
